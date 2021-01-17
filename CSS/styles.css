@@ -1,0 +1,106 @@
+body{
+  background-color: hsl(210, 46%, 95%);
+  font-family: Barlow Semi Condensed;
+  font-weight: 500,600;
+  font-size: 13px;
+}
+.dan{
+  float:left;
+ padding-top: 10px;
+ margin-right: 10px;
+}
+.jon{
+  float:left;
+ padding-top: 10px;
+ margin-right: 10px;
+}
+.jean{
+  float:left;
+ padding-top: 10px;
+ margin-right: 10px;
+}
+.patrick{
+  float:left;
+ padding-top: 10px;
+ margin-right: 10px;
+
+}
+.kira{
+  float:left;
+ padding-top: 10px;
+ margin-right: 10px;
+}
+.dq{
+  position: relative;
+  bottom: 20px;
+  right: 70px;
+  opacity: 0.5;
+  float:right;
+  height: 110px;
+  width: 90px;
+}
+.Daniel{
+  border-radius: 5px;
+  width: 600px;
+  height:240px;
+  margin: 20px;
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(210, 46%, 95%);
+  padding: 20px;
+}
+.Jonathan{
+  position: absolute;
+  top:20px;
+  left: 700px;
+  border-radius: 5px;
+  width: 250px;
+  height: 240px;
+  color: hsl(210, 46%, 95%);
+  padding: 20px;
+  background-color: hsl(217, 19%, 35%);
+}
+.Jean{
+  border-radius: 5px;
+  width: 250px;
+  height:210px;
+  margin: 20px;
+  color:hsl(217, 19%, 35%);
+  background-color: white;
+  padding: 20px;
+}
+.Patrick{
+  position: relative;
+  bottom: 290px;
+  left: 292px;
+  border-radius: 5px;
+  width: 600px;
+  height: 210px;
+  margin: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(210, 46%, 95%);
+  padding: 20px;
+}
+.Kira{
+  position: relative;
+  bottom:890px;
+  left: 950px;
+  background-color: white;
+  color:hsl(217, 19%, 35%);
+  border-radius: 5px;
+  height: 510px;
+  width:220px;
+  margin: 20px;
+  margin-left: 65px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.Verified{
+  position: relative;
+  bottom: 10px;
+  opacity: 0.5;
+}
+.desc{
+  opacity: 0.7;
+}
