@@ -34,7 +34,11 @@ p{
 
 .item-1{
   background-color: hsl(263, 55%, 52%);
-  grid-column: span 2;
+  /* grid-column: span 2; */
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
   color: hsl(210, 46%, 95%);
   border-radius: 10px;
   background-image: url('images/bg-pattern-quotation.svg');
@@ -42,25 +46,56 @@ p{
   background-position: right 70px top 10px;
 }
 .item-2{
-  grid-column: span 1;
+  /* grid-column: span 1; */
+  grid-column-start: 3 ;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
   background-color: hsl(217, 19%, 35%);
   color: hsl(210, 46%, 95%);
   border-radius: 10px;
 }
 .item-3{
-  grid-row: span 2;
-  color: hsl(217, 19%, 35%);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
   background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
   border-radius: 10px;
 }
 .item-4{
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+  background-color:  hsl(219, 29%, 14%);
+  /* grid-column: span 2; */
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
   border-radius: 10px;
 }
 .item-5{
-  color: hsl(210, 46%, 95%);
-  background-color:  hsl(219, 29%, 14%);
-  grid-column: span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  color: hsl(217, 19%, 35%);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .grid-container{
+    display: block;
+    width: 70%;
+    margin: 85px;
+  }
+  .grid-item{
+    margin-bottom: 30px;
+  }
+  .item-1{
+    background-position: right 20px top 10px;
+  }
+  .attribution{
+    display: none;
+  }
 }
