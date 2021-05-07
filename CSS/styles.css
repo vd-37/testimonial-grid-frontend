@@ -1,106 +1,66 @@
+
 body{
   background-color: hsl(210, 46%, 95%);
   font-family: Barlow Semi Condensed;
-  font-weight: 500,600;
-  font-size: 13px;
-}
-.dan{
-  float:left;
- padding-top: 10px;
- margin-right: 10px;
-}
-.jon{
-  float:left;
- padding-top: 10px;
- margin-right: 10px;
-}
-.jean{
-  float:left;
- padding-top: 10px;
- margin-right: 10px;
-}
-.patrick{
-  float:left;
- padding-top: 10px;
- margin-right: 10px;
 
 }
-.kira{
-  float:left;
- padding-top: 10px;
- margin-right: 10px;
+img{
+  width: 40px;
 }
-.dq{
-  position: relative;
-  bottom: 20px;
-  right: 70px;
-  opacity: 0.5;
-  float:right;
-  height: 110px;
-  width: 90px;
+.name p{
+  opacity: 50%;
 }
-.Daniel{
-  border-radius: 5px;
-  width: 600px;
-  height:240px;
-  margin: 20px;
+p{
+  font-size: 13px;
+  opacity: 70%;
+}
+.name{
+  margin-left: 60px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns:repeat(4 ,250px);
+  grid-auto-rows: minmax(250px,auto);
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  height: 590px;
+  align-content: center;
+  background-color: hsl(210, 46%, 95%);
+}
+ .grid-item{
+  padding: 20px;
+}
+
+.item-1{
   background-color: hsl(263, 55%, 52%);
+  grid-column: span 2;
   color: hsl(210, 46%, 95%);
-  padding: 20px;
+  border-radius: 10px;
+  background-image: url('images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: right 70px top 10px;
 }
-.Jonathan{
-  position: absolute;
-  top:20px;
-  left: 700px;
-  border-radius: 5px;
-  width: 250px;
-  height: 240px;
-  color: hsl(210, 46%, 95%);
-  padding: 20px;
+.item-2{
+  grid-column: span 1;
   background-color: hsl(217, 19%, 35%);
-}
-.Jean{
-  border-radius: 5px;
-  width: 250px;
-  height:210px;
-  margin: 20px;
-  color:hsl(217, 19%, 35%);
-  background-color: white;
-  padding: 20px;
-}
-.Patrick{
-  position: relative;
-  bottom: 290px;
-  left: 292px;
-  border-radius: 5px;
-  width: 600px;
-  height: 210px;
-  margin: 20px;
-  margin-left: 50px;
-  margin-top: 40px;
-  background-color: hsl(219, 29%, 14%);
   color: hsl(210, 46%, 95%);
-  padding: 20px;
+  border-radius: 10px;
 }
-.Kira{
-  position: relative;
-  bottom:890px;
-  left: 950px;
-  background-color: white;
-  color:hsl(217, 19%, 35%);
-  border-radius: 5px;
-  height: 510px;
-  width:220px;
-  margin: 20px;
-  margin-left: 65px;
-  margin-top: 50px;
-  padding: 20px;
+.item-3{
+  grid-row: span 2;
+  color: hsl(217, 19%, 35%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
 }
-.Verified{
-  position: relative;
-  bottom: 10px;
-  opacity: 0.5;
+.item-4{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+  border-radius: 10px;
 }
-.desc{
-  opacity: 0.7;
+.item-5{
+  color: hsl(210, 46%, 95%);
+  background-color:  hsl(219, 29%, 14%);
+  grid-column: span 2;
+  border-radius: 10px;
 }
